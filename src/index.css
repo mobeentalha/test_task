@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-a {
-	@apply border-b-2 border-gray-800 hover:bg-gray-200 mx-1 text-sm;
+
+@font-face {
+	font-family: "CabinetGrotesk-Regular";
+	src: url("./assets/fonts/CabinetGrotesk-Variable.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
 }
 
-a.github {
-	@apply inline-flex justify-center px-4 py-2 items-center space-x-2 text-xl border border-gray-800 rounded hover:bg-zinc-200;
+.bg-header {
+	background: url('./assets/images/header-bg.png');
+}
+.section-1 {
+	background: url('./assets/images/section-1-bg.png');
+}
+.section-2 {
+	background: url('./assets/images/section-2.png');
 }
